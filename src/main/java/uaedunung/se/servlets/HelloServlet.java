@@ -38,7 +38,7 @@ public class HelloServlet extends HttpServlet {
 
         resp.setContentType("text/html; charset=UTF-8");
 
-        // ✅ Передаємо ServletContext у FreeMarkerConfig
+        // Передаємо ServletContext у FreeMarkerConfig
         Configuration cfg = FreeMarkerConfig.getConfig(getServletContext());
 
         try {
